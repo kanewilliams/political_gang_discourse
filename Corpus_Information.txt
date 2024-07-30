@@ -1,0 +1,29 @@
+# VIEW THE REPORT FOR MORE INFORMATION AND SPECIFICS.
+
+Our corpus consists of 1718 UTF-8 encoded plain-text files, totalling 1,067,294 word tokens. The corpus was generated from the “Hansard Reports” website. This is a ‘dynamically’ generated source, with dialogues added within hours after being spoken in parliament. Text was scraped at 21-Mar-2024 5PM.
+
+Each sub-corpus consists of files with format: 
+	“YYYY-MM-DD_(UNIQUE_ID)SPEAKER NAME.txt”
+The files themselves are composed of speech from SPEAKER NAME, said at YYYY-MM-DD, from a transcript containing one of: “gang”, “gangs”, “mongrel mob”, “black power”
+
+FOLDERS/FILES:
+"files" contains all the transcript files, scraped from the websites listed in the report and pre-processed with preprocess.ipynb.
+"act/green/labour/national/other" contain the sorted, processed .txt files.
+
+PROCESS:
+1. Use webscrape.io on four parliament "Hansard Report" websites (listed below). The JSON for this sitemap is located in 'webscrape-IO_sitemap.txt'.
+2. Preprocess these .csv files into .txt files using 'preprocess.ipynb'.
+3. Lastly, process these new .txt files with 'process_txt.py'. This will split and sort the files into the appropriate party folder.
+
+Note: All .txt files are UTF-8 encoded. Filenames are explained in the report.
+
+
+
+WEBSITES SCRAPED:
+https://www.parliament.nz/en/pb/hansard-debates/rhr/search?criteria.Keyword=%22Black+Power%22&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=2023-10-14&criteria.DateTo=&parliamentStartDate=&parliamentEndDate=&criteria.Portfolio=
+
+https://www.parliament.nz/en/pb/hansard-debates/rhr/search?criteria.Keyword=%22Mongrel+Mob%22&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=2023-10-14&criteria.DateTo=&parliamentStartDate=&parliamentEndDate=&criteria.Portfolio=
+
+https://www.parliament.nz/en/pb/hansard-debates/rhr/search?criteria.Keyword=gang&criteria.ParliamentNumber=-1&criteria.Timeframe=range&criteria.DateFrom=2018-03-02&criteria.DateTo=2024-03-23&parliamentStartDate=&parliamentEndDate=&criteria.Portfolio=
+
+https://www.parliament.nz/en/pb/hansard-debates/rhr/search?Criteria.page=HansardReports&Criteria.Keyword=gang&Criteria.DateFrom=2023-10-14&Criteria.ParliamentNumber=-1&Criteria.PageNumber=1
