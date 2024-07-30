@@ -34,6 +34,9 @@ View the essay for more information. Below is a flowchart showing a rough outlin
 
 # Acknowledgements
 
-- Group Members who helped in the corpus building phase (TBD)
+- Members of Group E, where we worked together during the corpus building phase:
+  - N. Kaverin,
+  - M. Perez,
+  - E. Wang
  
 - Lecturers/Tutors at the University of Canterbury who provided guidance, support, and motivation.
