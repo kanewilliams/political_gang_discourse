@@ -3,7 +3,9 @@ Completed as part of a [DIGI405](https://courseinfo.canterbury.ac.nz/GetCourseDe
 
 The entire project consists of:
   1) A web-scraped corpus, and
-  2) An analysis of the corpus to answer the **Key Question**: Do different political parties use harsher/softer language when discussing gangs?
+  2) An analysis of the corpus to to answer the Key Question.
+
+ **Key Question**: Do different political parties use harsher/softer language when discussing gangs?
 
 ## Dataset Information
 
