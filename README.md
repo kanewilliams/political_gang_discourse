@@ -24,9 +24,10 @@ The following analyses were performed:
   - Collocation,
   - Word Frequency.
 
-View the essay for more information. Below is a flowchart showing a rough outline.
+[View the essay](https://github.com/kanewilliams/political_gang_discourse/blob/main/Corpus-Analysis-Essay_NZ-Parliament-and-Gangs.pdf) for more information. Below is a flowchart showing a rough outline.
 
 ![image](https://github.com/user-attachments/assets/32213047-bdf7-4dd0-b9d8-6121831a41fb)
+
 
 ## Conclusions
 
@@ -42,3 +43,10 @@ View the essay for more information. Below is a flowchart showing a rough outlin
   - E. Wang
  
 - Lecturers/Tutors at the University of Canterbury who provided guidance, support, and motivation.
+
+# Appendix: Selected Tables
+
+![image](https://github.com/user-attachments/assets/5185b995-092a-4d46-978e-b07e6c2b739f)
+
+![image](https://github.com/user-attachments/assets/cd932aed-ea64-47ff-958f-f67496ff71a2)
+
